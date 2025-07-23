@@ -1,15 +1,13 @@
-# Node modules
-**/node_modules
+# Ignore node_modules for both frontend and backend
+todo-frontend/node_modules/
+todo-backend/node_modules/
+
+# Environment files
+.env
+
+# VSCode settings
+.vscode/
 
 # Logs
 logs
 *.log
-
-# Environment variables
-.env
-
-# VSCode
-.vscode/
-
-# Build output
-**/dist
